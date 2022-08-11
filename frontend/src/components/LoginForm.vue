@@ -72,9 +72,10 @@ export default defineComponent({
       } else {
         try {
           await this.loginMember(this.member);
-          this.$router.push("/main");
+          this.$router.replace("/main");
         } catch (error) {
           console.log(error);
+          alert("로그인 정보가 틀렸습니다!");
         } finally {
           this.initForm();
         }
