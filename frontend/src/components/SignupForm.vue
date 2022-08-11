@@ -22,7 +22,12 @@
         </div>
         <div>
           <label for="nickname">닉네임: </label>
-          <input id="nickname" type="text" v-model="member.nickname" />
+          <input
+            id="nickname"
+            type="text"
+            :value="member.nickname"
+            @input="chganeName"
+          />
         </div>
         <div>
           <label for="email">이메일: </label>
@@ -150,6 +155,9 @@ export default defineComponent({
     },
   },
   methods: {
+    chganeName(e: any) {
+      this.member.nickname = e.target.value;
+    },
     async idDuplicateCheck() {
       try {
         const response = await checkUserId(this.member.loginId);
@@ -181,6 +189,7 @@ export default defineComponent({
       console.log(response);
       this.initForm();
       alert(response.data);
+      this.$router.push("/login");
     },
     initForm() {
       this.member.loginId = "";
