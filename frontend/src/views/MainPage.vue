@@ -127,7 +127,7 @@ export default defineComponent({
           });
       });
 
-      // window.addEventListener("beforeunload", this.leaveSession);
+      window.addEventListener("beforeunload", this.leaveSession);
 
       this.$router.push({
         name: "Room",
@@ -145,7 +145,7 @@ export default defineComponent({
       this.store.state.subscribers = [];
       this.store.state.OV = undefined;
 
-      // window.removeEventListener("beforeunload", this.leaveSession);
+      window.removeEventListener("beforeunload", this.leaveSession);
     },
 
     //세션 이름 넣으면 토큰을 주는 함수
