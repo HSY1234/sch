@@ -58,6 +58,39 @@
       <button-component-vue @click="myFunc()"></button-component-vue>
       <button-component-back @click="modalOut"></button-component-back>
     </div>
+    <div class="flex__ul">
+      <modal-radio-button-component
+        labelId="private"
+        labelValue="private"
+        :selector="accessModifierRadioSelecter"
+      ></modal-radio-button-component>
+      <modal-radio-button-component
+        labelId="public"
+        labelValue="public"
+        :selector="accessModifierRadioSelecter"
+      ></modal-radio-button-component>
+    </div>
+    <div class="flex__ul">
+      <modal-radio-button-component
+        labelId="2"
+        labelValue="2"
+        :selector="numOfPeopleRadioSelecter"
+      ></modal-radio-button-component>
+      <modal-radio-button-component
+        labelId="4"
+        labelValue="4"
+        :selector="numOfPeopleRadioSelecter"
+      ></modal-radio-button-component>
+      <modal-radio-button-component
+        labelId="6"
+        labelValue="6"
+        :selector="numOfPeopleRadioSelecter"
+      ></modal-radio-button-component>
+    </div>
+    <button-component-vue
+      @click="myFunc()"
+      buttonName="CREATE"
+    ></button-component-vue>
   </div>
 
   <!-- 방 제목 -->
