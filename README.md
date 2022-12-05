@@ -4,39 +4,39 @@
 
 ## 카테고리
 
-| Application | Language | Framework |
-| ---- | ---- | ---- |
-| :white_check_mark: Desktop Web | :black_square_button: JavaScript | :white_check_mark: Vue.js |
-| :black_square_button: Mobile Web | :white_check_mark: TypeScript | :black_square_button: React |
-| :black_square_button: Responsive Web | :black_square_button: C/C++ | :black_square_button: Angular |
-| :black_square_button: Android App | :black_square_button: C# | :white_check_mark: Node.js |
-| :black_square_button: iOS App | :black_square_button: Python | :black_square_button: Flask/Django |
-| :black_square_button: Desktop App | :white_check_mark: Java | :white_check_mark: Spring/Springboot |
-| | :black_square_button: Kotlin | |
+| Application                          | Language                         | Framework                            |
+| ------------------------------------ | -------------------------------- | ------------------------------------ |
+| :white_check_mark: Desktop Web       | :black_square_button: JavaScript | :white_check_mark: Vue.js            |
+| :black_square_button: Mobile Web     | :white_check_mark: TypeScript    | :black_square_button: React          |
+| :black_square_button: Responsive Web | :black_square_button: C/C++      | :black_square_button: Angular        |
+| :black_square_button: Android App    | :black_square_button: C#         | :white_check_mark: Node.js           |
+| :black_square_button: iOS App        | :black_square_button: Python     | :black_square_button: Flask/Django   |
+| :black_square_button: Desktop App    | :white_check_mark: Java          | :white_check_mark: Spring/Springboot |
+|                                      | :black_square_button: Kotlin     |                                      |
 
 <!-- 필수 항목 -->
 
 ## 프로젝트 소개
 
-* 프로젝트명: 세 치 혀
-* 서비스 특징: 다양한 연령층을 대상으로 토론 대회를 준비하거나 토론을 즐기고 싶어하는 사람들을 위해 토론 규칙 및 타이머 기능을 제공하는 화상 회의 플랫폼
-* 주요 기능
-  -	토론 모집
-    - 미리 토론에 참여할 인원들 모집 가능
-    - 방장 참여 수락 후, 참여 가능 상태로 변경
-  -	토론방 생성
-    -	주제 / 진영 / 인원수 설정 등 가능
-    -	인원수 설정 시, 토론 규칙 자동 적용
+- 프로젝트명: 세 치 혀
+- 서비스 특징: 다양한 연령층을 대상으로 토론 대회를 준비하거나 토론을 즐기고 싶어하는 사람들을 위해 토론 규칙 및 타이머 기능을 제공하는 화상 회의 플랫폼
+- 주요 기능
+  - 토론 모집
+  - 미리 토론에 참여할 인원들 모집 가능
+  - 방장 참여 수락 후, 참여 가능 상태로 변경
+  - 토론방 생성
+  - 주제 / 진영 / 인원수 설정 등 가능
+  - 인원수 설정 시, 토론 규칙 자동 적용
   - 토론 진행(방 내부 기능)
     - 설정된 규칙에 따라 타이머 작동하면서 자동 진행
-    -	발표자는 자료 공유 가능
-    -	진영에 따라 화면 좌우로 나뉘어져서 나타남
+    - 발표자는 자료 공유 가능
+    - 진영에 따라 화면 좌우로 나뉘어져서 나타남
     - 토론 완료 시, 경험치 +10 누적 적립
   - 회원기능
     - 회원가입, 로그인, 마이페이지 제공
     - jwt 토큰 발급을 통한 인증
-  
-* 주요 기술
+- 주요 기술
+
   - Vue.js 3 (3.2.37)
   - Visual Studio Code (1.69)
   - TypeScript (5.4.0)
@@ -46,96 +46,107 @@
   - JWT (0.9.1)
   - java 11 (Zulu 11.0.15 -win64)
   - intellij (221.5921.22)
-  - MySQL (8.0.28 Workbench) 
+  - MySQL (8.0.28 Workbench)
   - docker (20.10.17)
   - nginx (1.18.0 Ubuntu)
   - REST API
 
-* 협업툴
+- 협업툴
+
   - GitLab
   - Jira
 
-* 참조 리소스
-  * Vue Atomic Design System: 디자인 전반 적용
-  
-* 배포 환경
+- 참조 리소스
+  - Vue Atomic Design System: 디자인 전반 적용
+- 배포 환경
   - URL: https://i7a508.p.ssafy.io
     // 웹 서비스, 랜딩 페이지, 프로젝트 소개 등의 배포 URL
   - 테스트 계정: qwer1324 / 12345678
     // 로그인이 필요한 경우, 사용 가능한 테스트 계정(ID/PW)
 
 ## 시연 화면
+
 **메인화면**
-![메인화면](/uploads/26c2b325ad49da1bb861b3070eb41ee1/메인화면.gif)
+![메인화면](/uploads/메인화면.gif)
 
 **회원가입**
-![회원가입](/uploads/df9397b65b32d1417660dfff9a3282fd/회원가입.gif)
+![회원가입](/uploads/회원가입.gif)
 
 **로그인**
-![로그인](/uploads/02b660d627da397bdd5552fe0aa1bfeb/로그인.gif)
+![로그인](/uploads/로그인.gif)
 
 **게시판 - 토론모집글 작성**
-![모집글쓰기](/uploads/72658a7dcdf3b7a5e626148f65697fd7/모집글쓰기.gif)
+![모집글쓰기](/uploads/모집글쓰기.gif)
+
 ```
 - 토론모집글 작성 및 열람 가능
 - 작성 시 주제, 각 진영 주장, 토론 일시, 토론 인원 지정해서 등록
 ```
 
 **게시판&마이페이지 - 토론신청 및 신청정보 조회**
-![토론_신청](/uploads/3a02f351b72209a027832b0eba714e10/토론_신청.gif)
+![토론_신청](/uploads/토론_신청.gif)
+
 ```
 - 게시판: 모집글에서 토론 신청 가능
 - 마이페이지: 내가 신청한 토론 내역 및 수락여부 확인
 ```
 
 **방만들기**
-![방만들기](/uploads/e544640a6b28ec44933e6daf0f8024ca/방만들기.gif)
+![방만들기](/uploads/방만들기.gif)
+
 ```
 - 토론 주제와 각 진영, 방 잠금 여부와 인원수, 썸네일 이미지 등의 정보 입력 후 방 생성
 ```
 
 **방 참가**
-![방_참가](/uploads/5bbc9c8e28819851c34e6a67266074c4/방_참가.gif)
+![방_참가](/uploads/방_참가.gif)
+
 ```
 - 원하는 방 선택 후, 원하는 진영 및 순서를 선택해서 입장
 ```
 
 **방 내부 기능 - 토론 기능**
-* 토론 주제, 진영, 발언자, 타이머 표시 / 타이머 시작(방장 권한)
-![타이머_시작_방장O](/uploads/44feb323065b0aff19b0e3c43a2fb17f/타이머_시작_방장O.gif)
-![타이머_시작_방장X](/uploads/659dfe08499b8fb561e9a3dd9b2a6e81/타이머_시작_방장X.gif)
+
+- 토론 주제, 진영, 발언자, 타이머 표시 / 타이머 시작(방장 권한)
+  ![타이머_시작_방장O](/uploads/타이머_시작_방장O.gif)
+  ![타이머_시작_방장X](/uploads/타이머_시작_방장X.gif)
+
 ```
 - 상단에 토론 주제 및 진영, 현재 발언자 및 남은 발언 시간 표시
 - 방장: 타이머 시작, 일시정지 버튼으로 토론 진행
-- 참가자: 시작 권한은 X. 타이머 확인해서 발언 
+- 참가자: 시작 권한은 X. 타이머 확인해서 발언
 ```
 
-* 음소거 & 카메라 on/off
-![음소거_및_카메라](/uploads/97602e36f0d781d0a589bfb4dc24c6cc/음소거_및_카메라.gif)
+- 음소거 & 카메라 on/off
+  ![음소거_및_카메라](/uploads/음소거_및_카메라.gif)
 
-* 자료공유
-![자료_공유](/uploads/016548942e655e9cf9b6d28bb5a80133/자료_공유.gif)
+- 자료공유
+  ![자료_공유](/uploads/자료_공유.gif)
+
 ```
 - 필요한 파일들 미리 업로드 후, 공유할 자료 선택(숫자 버튼)해서 하단 자료공유 버튼 누르면 공유됨
 ```
 
-* 발언 내용 메모기능
-![메모기능](/uploads/e42d39e09ff0c2988af09a44f68c8fe3/메모기능.gif)
+- 발언 내용 메모기능
+  ![메모기능](/uploads/메모기능.gif)
+
 ```
 - 각 발언자 발언 내용 메모 가능
 - 해당 메모는 나에게만 보임
 ```
 
-* 토론 종료
-![토론_종료](/uploads/6f07f08027a505a43fbdeb6a4b3774b6/토론_종료.gif)
+- 토론 종료
+  ![토론_종료](/uploads/토론_종료.gif)
 
-* 실제 토론 화면
-![실제_토론_영상](/uploads/78321d1812ced3479e3ada2d1d81a520/실제_토론_영상.gif)
+- 실제 토론 화면
+  ![실제_토론_영상](/uploads/실제_토론_영상.gif)
 
 <!-- 자유 양식 -->
 
 ## 팀 소개
-***기획 (와이어프레임, 기능명세서, ERD, API docs 등은 팀 전원 작성)***
+
+**_기획 (와이어프레임, 기능명세서, ERD, API docs 등은 팀 전원 작성)_**
+
 ```
 <역할>
 * 김영범: 팀장, FE, 마이페이지, 게시판, 협업 툴 관리
@@ -149,33 +160,41 @@
 <!-- 자유 양식 -->
 
 ## 프로젝트 상세 설명
+
 <!-- 개발 환경, 기술 스택, 시스템 구성도, ERD, 기능 상세 설명 등 -->
 
 ### 1. 아키텍쳐 구조도
-<!-- 링크 삽입 예정 & 포트번호 수정 예정 -->
-![ServiceArchitectureDraw.drawio](/uploads/954a6942b43b867957ddca8c73c9f71e/ServiceArchitectureDraw.drawio.png)
 
-| PORT | 이름                                                  |
-| ---- | ----------------------------------------------------- |
-| 443  | HTTPS                                                 |
-| 80   | HTTP - HTTPS로 리다이렉트 (프론트 페이지로 리다이렉트)  |
-| 3306 | MySQL                                                 |
-| 8080 | Spring boot Docker Container                          |
-| 8443 | Openvidu                                              |
+<!-- 링크 삽입 예정 & 포트번호 수정 예정 -->
+
+![ServiceArchitectureDraw.drawio](/uploads/ServiceArchitectureDraw.drawio.png)
+
+| PORT | 이름                                                   |
+| ---- | ------------------------------------------------------ |
+| 443  | HTTPS                                                  |
+| 80   | HTTP - HTTPS로 리다이렉트 (프론트 페이지로 리다이렉트) |
+| 3306 | MySQL                                                  |
+| 8080 | Spring boot Docker Container                           |
+| 8443 | Openvidu                                               |
 
 ### 2. 와이어프레임
-![Image_Pasted_at_2022-8-17_23-12](/uploads/384559dcf91927696573e73e38663d6d/Image_Pasted_at_2022-8-17_23-12.png)
+
+![Image_Pasted_at_2022-8-17_23-12](/uploads/Image_Pasted_at_2022-8-17_23-12.png)
 
 ### 3. ERD
+
 <!-- 링크 삽입 예정 -->
-![Image_Pasted_at_2022-8-17_23-07](/uploads/2f743881d275ddb736d5449f6edde084/Image_Pasted_at_2022-8-17_23-07.png)
+
+![Image_Pasted_at_2022-8-17_23-07](/uploads/Image_Pasted_at_2022-8-17_23-07.png)
 
 ### 4. API 명세서
+
 ## 📃API 설계
+
 **토론 신청 정보**
 |기능|Method|URL|Response|
 |:--:|:--:|:--:|:--:|
-| 토론 참여 신청 | POST | ​/api​/debate-apply | 토론 참여를 신청한다. | 
+| 토론 참여 신청 | POST | ​/api​/debate-apply | 토론 참여를 신청한다. |
 | 토론 참여 수정 | PUT | /api/debate-apply/{apply_no} |토론 참여를 수정한다. |
 | 토론 참여 삭제 | DELETE | /api/debate-apply/{apply_no} | 토론 참여를 삭제한다. |
 | 토론 모집 조회 | GET | /api/debate-apply/applying | 내가 신청한 applicant_state 조회. |
@@ -250,7 +269,9 @@
 | 현재 생성된 방 정보 | GET | /sessions/roomInfo | 현재 생성된 모든 방에 대한 정보를 반환한다. |
 
 ## Git Convention
+
 ### 1. Branch
+
 ```
 - main
 - develop
@@ -308,6 +329,7 @@ chore : 그 외 자잘한 작업, 빌드 업무, 패키지 매니저(ex config) 
 ```
 
 ### 5. subject: 제목 컨벤션
+
 ```
 - 너무 길지 않게 50자를 넘기지 않는다.
 - 마침표를 붙이지 않는다.
@@ -322,6 +344,7 @@ chore : 그 외 자잘한 작업, 빌드 업무, 패키지 매니저(ex config) 
 - 어떻게 보다는 `무엇 / 왜` 대해서 작성
 
 ### 7. footer: 꼬리말 컨벤션
+
 ```
 - 생략
 ```
@@ -338,6 +361,7 @@ feat : Implementation of login functionality
 ```
 
 ### 9. git-flow 전략
+
 ```
 - master : 기준이 되는 브랜치로 배포할 수 있는 브랜치 입니다.
 - develop : 개발 브랜치로 개발자들이 이 브랜치를 기준으로 각자 작업한 기능들을 pull하고 개발 후 합(Merge)칩니다.
